@@ -1,0 +1,37 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CC	Makefile	/^CC		=	gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS	=	-Wall -Wextra -Werror$/;"	m
+FALSE	my_tester.h	/^# define FALSE /;"	d
+MY_TESTER_H	my_tester.h	/^# define MY_TESTER_H$/;"	d
+NAME	Makefile	/^NAME	=	libft_02_tester$/;"	m
+SRCS	Makefile	/^SRCS	=	..\/ft_calloc.c\\$/;"	m
+STDOUT	my_tester.h	/^# define STDOUT /;"	d
+TRUE	my_tester.h	/^# define TRUE /;"	d
+TSRCS	Makefile	/^TSRCS	=	calloc_test.c\\$/;"	m
+calloc_test	calloc_test.c	/^char	*calloc_test(void)$/;"	f
+created_free	split_test.c	/^static void created_free(char **created)$/;"	f	file:
+do_test	calloc_test.c	/^static char	do_test(size_t count, size_t size)$/;"	f	file:
+do_test	itoa_test.c	/^static char	do_test(int n, const char *expected)$/;"	f	file:
+do_test	split_test.c	/^static char	do_test(char const *s, char c, char *expected[])$/;"	f	file:
+do_test	strdup_test.c	/^static char	do_test(const char *s1)$/;"	f	file:
+do_test	strjoin_test.c	/^static char	do_test(char const *s1, char const *s2, char const *expected)$/;"	f	file:
+do_test	strtrim_test.c	/^static char	do_test(char const *s1, char const *set, char const *expected)$/;"	f	file:
+do_test	substr_test.c	/^static char	do_test(char const *s, unsigned int start, size_t len, char const *expected)$/;"	f	file:
+itoa_test	itoa_test.c	/^char	*itoa_test(void)$/;"	f
+main	my_tester.c	/^int	main(void)$/;"	f
+main	split_test2.c	/^int main(void)$/;"	f
+my_free	calloc_test.c	/^static void	my_free(void *a, void *b)$/;"	f	file:
+my_free	strdup_test.c	/^static void	my_free(void *a, void *b)$/;"	f	file:
+put_result	put_result.c	/^void	put_result(char *result)$/;"	f
+put_result1	put_result.c	/^void	put_result1(char *result)$/;"	f
+split_free	split_test2.c	/^void	split_free(char **split)$/;"	f
+split_test	split_test.c	/^char	*split_test(void)$/;"	f
+strdup_test	strdup_test.c	/^char	*strdup_test(void)$/;"	f
+strjoin_test	strjoin_test.c	/^char	*strjoin_test(void)$/;"	f
+strtrim_test	strtrim_test.c	/^char	*strtrim_test(void)$/;"	f
+substr_test	substr_test.c	/^char	*substr_test(void)$/;"	f
