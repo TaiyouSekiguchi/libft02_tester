@@ -6,7 +6,7 @@
 /*   By: tsekiguc <tsekiguc@student.42tokyo.jp      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/28 15:13:19 by tsekiguc          #+#    #+#             */
-/*   Updated: 2022/06/14 20:44:29 by tsekiguc         ###   ########.fr       */
+/*   Updated: 2022/06/14 20:50:23 by tsekiguc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,8 @@
 # include <stdio.h>
 # include <string.h>
 # include <ctype.h>
+
+# include "../libft.h"
 
 # define TRUE 1
 # define FALSE 0

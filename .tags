@@ -9,7 +9,7 @@ CFLAGS	Makefile	/^CFLAGS	=	-Wall -Wextra -Werror$/;"	m
 FALSE	my_tester.h	/^# define FALSE /;"	d
 MY_TESTER_H	my_tester.h	/^# define MY_TESTER_H$/;"	d
 NAME	Makefile	/^NAME	=	libft_02_tester$/;"	m
-SRCS	Makefile	/^SRCS	=	..\/ft_calloc.c\\$/;"	m
+SRCS	Makefile	/^SRCS	=	..\/ft_atoi.c\\$/;"	m
 STDOUT	my_tester.h	/^# define STDOUT /;"	d
 TRUE	my_tester.h	/^# define TRUE /;"	d
 TSRCS	Makefile	/^TSRCS	=	calloc_test.c\\$/;"	m

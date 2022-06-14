@@ -6,11 +6,10 @@
 /*   By: tsekiguc <tsekiguc@student.42tokyo.jp      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/29 11:36:07 by tsekiguc          #+#    #+#             */
-/*   Updated: 2021/07/29 14:08:56 by tsekiguc         ###   ########.fr       */
+/*   Updated: 2022/06/14 20:49:48 by tsekiguc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
 #include "my_tester.h"
 
 static char	do_test(char const *s1, char const *s2, char const *expected)

@@ -6,11 +6,10 @@
 /*   By: tsekiguc <tsekiguc@student.42tokyo.jp      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/29 14:26:29 by tsekiguc          #+#    #+#             */
-/*   Updated: 2021/08/12 22:58:26 by tsekiguc         ###   ########.fr       */
+/*   Updated: 2022/06/14 20:49:37 by tsekiguc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
 #include "my_tester.h"
 
 static void created_free(char **created)

@@ -6,11 +6,10 @@
 /*   By: tsekiguc <tsekiguc@student.42tokyo.jp      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/29 11:18:44 by tsekiguc          #+#    #+#             */
-/*   Updated: 2021/07/29 11:32:31 by tsekiguc         ###   ########.fr       */
+/*   Updated: 2022/06/14 20:49:53 by tsekiguc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
 #include "my_tester.h"
 
 static void	my_free(void *a, void *b)

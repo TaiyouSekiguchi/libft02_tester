@@ -6,11 +6,10 @@
 /*   By: tsekiguc <tsekiguc@student.42tokyo.jp      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/20 20:14:16 by tsekiguc          #+#    #+#             */
-/*   Updated: 2022/06/14 17:48:34 by tsekiguc         ###   ########.fr       */
+/*   Updated: 2022/06/14 20:57:23 by tsekiguc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../libft.h"
 #include "my_tester.h"
 
 int	main(void)
@@ -48,7 +47,7 @@ int	main(void)
 
 	printf("\n********** LEAK CHECK PART **********\n\n");
 
-	system("leaks a.out");
+	system("leaks libft_02_tester");
 
 	return (0);
 }
